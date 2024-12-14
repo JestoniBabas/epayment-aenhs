@@ -1,0 +1,50 @@
+@font-face{
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-family: Poppins;
+  }
+*, html, body{
+    padding: 0;
+    border: 0;
+    font-family: Poppins, sans-serif;
+}
+.login{
+    width: 350px;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px #ccc;
+    background-color: transparent;
+}
+.login-header{
+    padding: 10px 20px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+.login-body{
+    padding: 10px 20px;
+}
+.login-footer{
+    padding: 10px 20px;
+    border-bottom-right-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+}
+.text-banner{
+    font-size: 1.2em;
+}
+.rot{
+    width: 17px;
+}
+.fav_logo{
+    width: 80px;
+}
+
+
+@media screen and (max-width: 600px){
+    .login{
+        width: 80%;
+        margin-top: 50px;
+    }
+    .fav_logo{
+        width: 80px;
+    }
+}
